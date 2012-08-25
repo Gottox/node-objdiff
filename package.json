@@ -9,8 +9,8 @@
     "url": "https://github.com/Gottox/node-objdiff.git"
   },
   "keywords": [
-    "url",
-    "urlify"
+    "diff",
+    "delta"
   ],
   "dependencies" : {
   },

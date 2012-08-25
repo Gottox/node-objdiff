@@ -29,7 +29,7 @@ version to dist/objdiff
 ### Node
 
 ``` javascript
-var objdiff = require('urlify').objdiff
+var objdiff = require('objdiff').objdiff
 objdiff({a:1}, {b:2});
 ```
 
@@ -45,7 +45,7 @@ objdiff({a:1}, {b:2});
 	</head>
 	<body>
 		<script type="text/javascript">
-			var urlify = ObjDiff.objdiff
+			var objdiff = ObjDiff.objdiff
 			document.write(JSON.stringify(objdiff({a:1}, {b:2})));
 		</script>
 	</body>

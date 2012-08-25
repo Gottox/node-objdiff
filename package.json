@@ -1,0 +1,25 @@
+{
+  "name": "objdiff",
+  "version": "0.1",
+  "author": "Enno Boland <eb@s01.de>",
+  "description": "Diffs two javascript objects.",
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gottox/node-objdiff.git"
+  },
+  "keywords": [
+    "url",
+    "urlify"
+  ],
+  "dependencies" : {
+  },
+  "devDependencies": {
+    "browserbuild": "*"
+  },
+  "scripts" : { "test" : "make test" },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}

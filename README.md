@@ -3,7 +3,26 @@
 
 ### ObjDiff
 
-This node library implements a very simple diff algorithm for javascript/json objects
+This node library implements a very simple diff algorithm for javascript/json objects.
+
+An example diff object looks like:
+
+```
+> objdiff({a:2,c:1},{b:2,c:2})
+{ a: 
+   { '$changed': true,
+     '-': 2 },
+  c: 
+   { '$changed': true,
+     '-': 1,
+     '+': 2 },
+  b: 
+   { '$changed': true,
+     '+': 2 } }
+```
+
+every value, that has changed is represented by an object with the key-value
+pair ```$changed: true```.
 
 ## Installation
 
